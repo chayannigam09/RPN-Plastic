@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Menu, X, Factory } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import logo from '../../assets/logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,9 +16,10 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-3">
-            <div className="bg-blue-600 p-2 rounded-lg">
-              <Factory className="h-8 w-8 text-white" />
-            </div>
+            {/* <div className=" p-2 rounded-lg"> */}
+              {/* <Factory  /> */}
+              <img src={logo} alt="" className="h-20 w-20 text-white"/>
+            {/* </div> */}
             <div>
               <h1 className="text-2xl font-bold text-gray-900">RPN Plastic</h1>
               <p className="text-sm text-gray-600">Manufacturing Excellence</p>
