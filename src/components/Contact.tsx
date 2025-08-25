@@ -45,7 +45,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Phone</h3>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+91 8959147197</p>
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Location</h3>
-                  <p className="text-gray-600">Industrial Zone<br />Manufacturing District</p>
+                  <p className="text-gray-600">B-65, Gali Number 2, Balaji Vihar Colony, Sanwer Road Industrial Area (Sector-E), Indore, Madhya Pradesh 452015</p>
                 </div>
               </div>
             </div>
@@ -81,7 +81,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Business Hours</h3>
-                  <p className="text-gray-600">Mon - Fri: 8:00 AM - 6:00 PM<br />Sat: 9:00 AM - 4:00 PM</p>
+                  <p className="text-gray-600">Mon - Sat : 9:00 AM - 7:00 PM</p>
                 </div>
               </div>
             </div>

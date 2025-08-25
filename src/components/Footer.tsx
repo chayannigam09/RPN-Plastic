@@ -1,5 +1,6 @@
 import React from 'react';
 import { Factory, Phone, Mail, MapPin } from 'lucide-react';
+import logo from '../../assets/logo.png';
 
 const Footer = () => {
   return (
@@ -8,9 +9,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="bg-blue-600 p-2 rounded-lg">
-                <Factory className="h-6 w-6 text-white" />
-              </div>
+              {/* <div className="bg-blue-600 p-2 rounded-lg"> */}
+                  <img src={logo} alt="" className="h-20 w-20 text-white"/>
+              {/* </div> */}
               <div>
                 <h3 className="text-xl font-bold">RPN Plastic</h3>
                 <p className="text-sm text-gray-400">Manufacturing Excellence</p>
@@ -23,7 +24,7 @@ const Footer = () => {
             <div className="space-y-2 text-sm text-gray-300">
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 8959147197</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4" />
@@ -31,7 +32,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4" />
-                <span>Industrial Zone, Manufacturing District</span>
+                <span>B-65, Gali Number 2, Balaji Vihar Colony, Sanwer Road Industrial Area (Sector-E) Indore,<br/> Madhya Pradesh 452015</span>
               </div>
             </div>
           </div>
